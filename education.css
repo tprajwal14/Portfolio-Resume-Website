@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.education{
+    width:100%;
+    height:100%;
+}
+.education_h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    line-height: 3;
+}
+.edu_container{
+   padding:0px 70px;
+}
+.edu_h1{
+    font-size: 27px;
+    color:rgb(15, 58, 58);
+    border-bottom: 4px groove rgb(8, 8, 65);
+    width: 50%;
+   
+}
+.exp_h23{
+    font-size: 34px;
+    border-bottom: 4px groove rgb(8, 8, 65);
+    width: 50%;
+}
+.university{
+    text-indent: 50px;
+}
+.clg{
+    text-indent: 30px;
+    line-height: 2;
+}
+.percentage{
+    text-indent: 20px;
+}
+.year{
+    background-color: lightblue;
+    line-height: 2;
+    padding:4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

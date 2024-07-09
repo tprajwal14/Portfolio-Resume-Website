@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contac{
+    width:100%;
+    height: 100%;
+   
+}
+ .contac_h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    line-height: 3;
+}
+.super{
+    padding:4% 10%;  
+    float: left;
+}
+.contact_location{
+    line-height: 1.5;
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.form_contact{
+    width: 50%;
+    
+}
+
+input[type=text]{
+    padding:15px 15px;
+    border:none;
+    border-bottom: 2px solid orangered;
+}
+input[type=tel]{
+    padding:15px 15px;
+    border:none;
+    border-bottom: 2px solid orangered;
+}
+input[type=email]{
+    padding:15px 15px;
+    border:none;
+    border-bottom: 2px solid orangered;
+}
+input[type=button]{
+    text-align: center;
+    padding:5px 5px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border:2px ridge orangered;
+    border-radius: 10px;
+}
+fieldset{
+    border: 2px solid red;
+    box-shadow: 12px 10px 17px rgba(0, 0, 0, 0.205);
+}
+fieldset:hover{
+    border: 3px ridge red;
+    box-shadow: 15px 13px 20px rgba(0, 0, 0, 0.205);
+}
+input[type=button]:hover{
+    background-color: red;
+    border:3px groove red;
+    cursor: pointer;
+}
